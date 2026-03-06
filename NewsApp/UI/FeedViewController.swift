@@ -157,16 +157,16 @@ extension FeedViewController: UITableViewDelegate {
         navigationController?.pushViewController(detailVC, animated: true)
     }
     
-//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-//        let offsetY = scrollView.contentOffset.y
-//        let contentHeight = scrollView.contentSize.height
-//        
-//        if offsetY > contentHeight - scrollView.frame.height * 2 {
-//            if let lastVisible = tableView.indexPathsForVisibleRows?.last {
-//                viewModel.loadNextPageIfNeeded(currentIndex: lastVisible.row)
-//            }
-//        }
-//    }
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let offsetY = scrollView.contentOffset.y
+        let contentHeight = scrollView.contentSize.height
+        
+        if offsetY > contentHeight - scrollView.frame.height * 2 {
+            if let lastVisible = tableView.indexPathsForVisibleRows?.last {
+                viewModel.loadNextPageIfNeeded(currentIndex: lastVisible.row)
+            }
+        }
+    }
 }
 
 extension FeedViewController: UISearchResultsUpdating {

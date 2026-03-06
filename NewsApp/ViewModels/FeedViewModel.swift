@@ -43,14 +43,21 @@ final class FeedViewModel {
         articles = []
         fetch(page: currentPage, query: currentQuery, reset: true)
     }
+    
+    
+    func loadNextPageIfNeeded(currentIndex: Int) {
 
-//    func loadNextPageIfNeeded(currentIndex: Int) {
-//        guard currentIndex >= articles.count - 5,
-//              !isLoadingNextPage,
-//              canLoadMore else { return }
-//        currentPage += 1
-//        fetch(page: currentPage, query: currentQuery, reset: false)
-//    }
+        if isLoadingNextPage { return }
+
+        if !canLoadMore { return }
+
+        let thresholdIndex = articles.count - 5
+
+        if currentIndex >= thresholdIndex {
+            currentPage += 1
+            fetch(page: currentPage, query: currentQuery, reset: false)
+        }
+    }
 
     private func bindSearch() {
         
