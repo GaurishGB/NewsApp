@@ -6,39 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		BB296A6F2F5A017000E8AD9C /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A6E2F5A017000E8AD9C /* PersistenceController.swift */; };
-		BB296A732F5A01A400E8AD9C /* BookmarkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A722F5A01A400E8AD9C /* BookmarkStore.swift */; };
-		BB296A762F5A042500E8AD9C /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A752F5A042500E8AD9C /* Article.swift */; };
-		BB296A792F5A04AB00E8AD9C /* NewsAPIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A782F5A04AB00E8AD9C /* NewsAPIConfig.swift */; };
-		BB296A7D2F5A056500E8AD9C /* NewsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A7C2F5A056500E8AD9C /* NewsEndpoint.swift */; };
-		BB296A7F2F5A05FC00E8AD9C /* NewsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A7E2F5A05FC00E8AD9C /* NewsAPIClient.swift */; };
-		BB296A832F5A06EB00E8AD9C /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A822F5A06EB00E8AD9C /* FeedViewModel.swift */; };
-		BB296A852F5A072700E8AD9C /* BookmarksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A842F5A072700E8AD9C /* BookmarksViewModel.swift */; };
-		BB296A872F5A078C00E8AD9C /* ArticleDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A862F5A078C00E8AD9C /* ArticleDetailViewModel.swift */; };
-		BB296A8A2F5A081700E8AD9C /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A892F5A081700E8AD9C /* ArticleTableViewCell.swift */; };
-		BB296A8C2F5A0A1100E8AD9C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A8B2F5A0A1100E8AD9C /* FeedViewController.swift */; };
-		BB296A8E2F5A0A8900E8AD9C /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A8D2F5A0A8900E8AD9C /* BookmarksViewController.swift */; };
-		BB296A902F5A0AD000E8AD9C /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A8F2F5A0AD000E8AD9C /* ArticleDetailViewController.swift */; };
-		BB296A922F5A11CB00E8AD9C /* ArticleBookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB296A912F5A11CB00E8AD9C /* ArticleBookmark.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		BB296A4E2F58C18000E8AD9C /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB296A6E2F5A017000E8AD9C /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
-		BB296A722F5A01A400E8AD9C /* BookmarkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkStore.swift; sourceTree = "<group>"; };
-		BB296A752F5A042500E8AD9C /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		BB296A782F5A04AB00E8AD9C /* NewsAPIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIConfig.swift; sourceTree = "<group>"; };
-		BB296A7C2F5A056500E8AD9C /* NewsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsEndpoint.swift; sourceTree = "<group>"; };
-		BB296A7E2F5A05FC00E8AD9C /* NewsAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIClient.swift; sourceTree = "<group>"; };
-		BB296A822F5A06EB00E8AD9C /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
-		BB296A842F5A072700E8AD9C /* BookmarksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewModel.swift; sourceTree = "<group>"; };
-		BB296A862F5A078C00E8AD9C /* ArticleDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewModel.swift; sourceTree = "<group>"; };
-		BB296A892F5A081700E8AD9C /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
-		BB296A8B2F5A0A1100E8AD9C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		BB296A8D2F5A0A8900E8AD9C /* BookmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
-		BB296A8F2F5A0AD000E8AD9C /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
-		BB296A912F5A11CB00E8AD9C /* ArticleBookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleBookmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -76,12 +45,6 @@
 		BB296A452F58C18000E8AD9C = {
 			isa = PBXGroup;
 			children = (
-				BB296A912F5A11CB00E8AD9C /* ArticleBookmark.swift */,
-				BB296A772F5A048B00E8AD9C /* Networking */,
-				BB296A742F5A032500E8AD9C /* Models */,
-				BB296A6D2F5A013300E8AD9C /* Core */,
-				BB296A802F5A062100E8AD9C /* ViewModels */,
-				BB296A882F5A07C300E8AD9C /* UI */,
 				BB296A502F58C18000E8AD9C /* NewsApp */,
 				BB296A4F2F58C18000E8AD9C /* Products */,
 			);
@@ -93,54 +56,6 @@
 				BB296A4E2F58C18000E8AD9C /* NewsApp.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BB296A6D2F5A013300E8AD9C /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				BB296A6E2F5A017000E8AD9C /* PersistenceController.swift */,
-				BB296A722F5A01A400E8AD9C /* BookmarkStore.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		BB296A742F5A032500E8AD9C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				BB296A752F5A042500E8AD9C /* Article.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		BB296A772F5A048B00E8AD9C /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				BB296A782F5A04AB00E8AD9C /* NewsAPIConfig.swift */,
-				BB296A7C2F5A056500E8AD9C /* NewsEndpoint.swift */,
-				BB296A7E2F5A05FC00E8AD9C /* NewsAPIClient.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		BB296A802F5A062100E8AD9C /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				BB296A822F5A06EB00E8AD9C /* FeedViewModel.swift */,
-				BB296A842F5A072700E8AD9C /* BookmarksViewModel.swift */,
-				BB296A862F5A078C00E8AD9C /* ArticleDetailViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		BB296A882F5A07C300E8AD9C /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				BB296A892F5A081700E8AD9C /* ArticleTableViewCell.swift */,
-				BB296A8B2F5A0A1100E8AD9C /* FeedViewController.swift */,
-				BB296A8D2F5A0A8900E8AD9C /* BookmarksViewController.swift */,
-				BB296A8F2F5A0AD000E8AD9C /* ArticleDetailViewController.swift */,
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,20 +132,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB296A8E2F5A0A8900E8AD9C /* BookmarksViewController.swift in Sources */,
-				BB296A852F5A072700E8AD9C /* BookmarksViewModel.swift in Sources */,
-				BB296A902F5A0AD000E8AD9C /* ArticleDetailViewController.swift in Sources */,
-				BB296A7F2F5A05FC00E8AD9C /* NewsAPIClient.swift in Sources */,
-				BB296A732F5A01A400E8AD9C /* BookmarkStore.swift in Sources */,
-				BB296A762F5A042500E8AD9C /* Article.swift in Sources */,
-				BB296A6F2F5A017000E8AD9C /* PersistenceController.swift in Sources */,
-				BB296A922F5A11CB00E8AD9C /* ArticleBookmark.swift in Sources */,
-				BB296A792F5A04AB00E8AD9C /* NewsAPIConfig.swift in Sources */,
-				BB296A872F5A078C00E8AD9C /* ArticleDetailViewModel.swift in Sources */,
-				BB296A8C2F5A0A1100E8AD9C /* FeedViewController.swift in Sources */,
-				BB296A7D2F5A056500E8AD9C /* NewsEndpoint.swift in Sources */,
-				BB296A8A2F5A081700E8AD9C /* ArticleTableViewCell.swift in Sources */,
-				BB296A832F5A06EB00E8AD9C /* FeedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
